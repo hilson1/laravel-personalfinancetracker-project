@@ -34,6 +34,10 @@ Route::get('/expenses', function () {
     return view('expenses');
 })->name('expenses');
 
+Route::get('/setting', function () {
+    return view('setting');
+})->name('setting');
+
 Route::get('/predict-expense', [FinanceController::class, 'predictMonthlyExpense']);
 
 Route::middleware('auth')->group(function () {

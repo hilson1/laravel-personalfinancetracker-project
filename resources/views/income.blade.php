@@ -42,6 +42,11 @@
 
                     <div class="text-right">
                         <button type="submit"
+                            class="bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Predict income</button>
+                    </div>
+
+                    <div class="text-right">
+                        <button type="submit"
                             class="bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Save</button>
                     </div>
                 </form>
